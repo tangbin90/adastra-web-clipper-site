@@ -77,7 +77,7 @@
       <article class="card">
         <p class="eyebrow">Ad Astra Web Clipper</p>
         <h1>Privacy Policy</h1>
-        <p class="updated">Last updated: 2026-07-17</p>
+        <p class="updated">Last updated: 2026-08-16</p>
 
         <p>
           Ad Astra Web Clipper is a Chrome extension for extracting the current
@@ -94,6 +94,14 @@
         <p>
           The Ad Astra password is used only to sign in to the configured Ad
           Astra service. It is not saved by the extension.
+        </p>
+        <p>
+          When AI-assisted article cleanup is enabled and normal extraction is
+          uncertain, selected article blocks may be sent to the configured Ad
+          Astra service for cleanup. The Ad Astra service may process those
+          blocks through its configured AI provider. Token usage is charged to
+          the user's Ad Astra account. The user can disable AI-assisted cleanup
+          in the extension settings before syncing.
         </p>
 
         <h2>Data Storage</h2>
@@ -115,7 +123,10 @@
         </p>
         <p>
           The extension sends article data only to the Ad Astra service
-          configured in the extension.
+          configured in the extension. The extension does not contact an AI
+          provider directly. When AI-assisted cleanup is enabled, the configured
+          Ad Astra service may use its configured AI provider to process selected
+          article blocks under the service's configuration and privacy terms.
         </p>
         <p>
           The use of information received from Chrome APIs adheres to the Chrome
